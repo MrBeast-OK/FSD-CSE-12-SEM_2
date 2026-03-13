@@ -16,7 +16,6 @@ const clear = () => {
   engI.value = '';
   nameI.focus();
 };
-
 const table = (h, r) => {
   if (!r.length) return (out.textContent = 'No data');
   const head = `<tr>${h.map((t) => `<th>${t}</th>`).join('')}</tr>`;
