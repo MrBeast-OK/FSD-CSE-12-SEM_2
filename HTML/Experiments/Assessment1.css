@@ -1,0 +1,80 @@
+/* Very basic styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #919cc2;
+  color: #583939;
+}
+
+.container {
+  max-width: 700px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.card {
+  background: #c99393;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #888;
+  border-radius: 5px;
+  background: #eee;
+  cursor: pointer;
+  margin: 0.25rem 0.25rem 0 0;
+}
+
+button.primary {
+  background: #4a90e2;
+  color: #fff;
+}
+
+.results {
+  font-size: 0.9rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.75rem;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.message {
+  margin-top: 0.5rem;
+  min-height: 1.2rem;
+}
+
+@media (max-width: 520px) {
+  button {
+    width: 100%;
+  }
+}
